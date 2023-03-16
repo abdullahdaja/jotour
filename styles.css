@@ -92,9 +92,9 @@ body{
   
 }
 .cont{
-  display: grid;
-  grid-template-columns: auto auto;
-padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 .card{
   margin: 2px;
@@ -104,5 +104,4 @@ padding: 10px;
   border-radius: 0px;
   
 }
-
 }
